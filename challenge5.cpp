@@ -8,10 +8,9 @@ using namespace std;
 
 int main()
 {
-    bool numberFound = false;
     int number = 2050;
     int counter = 0;
-    while (!numberFound)
+    while (1)
     {
         counter = 0;
         for (int i = 1; i < 21; i++)
